@@ -1,0 +1,58 @@
+body {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(22, 169, 49), rgb(20, 92, 187));
+    font-family: sans-serif;
+}
+
+h1 {
+    transition: all 0.5s linear;
+}
+
+h1:hover { 
+     color: rgb(0, 217, 255);
+}
+
+ul {
+    transition: all 0.5s linear;
+}
+
+ul:hover {
+    color:rgb(209, 0, 17);
+}
+
+header a {
+    transition: all 0.4 linear;
+}
+
+header a:hover {
+    color: rgb(156, 7, 131);
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    transition: all 0.5s linear;
+}
+
+p:hover {
+    color: rgb(203, 203, 12);
+}
+
+img {
+    transition: all 0.4s ease;
+}
+
+img:hover {
+    box-shadow: 0px 0px 5px 5px rgb(130, 117, 130);
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #FFD300;
+}
+
